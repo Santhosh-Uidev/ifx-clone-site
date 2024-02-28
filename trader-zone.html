@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Expo Layout</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- css -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/all.min.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css" href="assets/css/owl.theme.default.min.css" />
+  <!-- slick -->
+  <link rel="stylesheet" href="assets/css/slick.css" />
+  <link rel="stylesheet" href="assets/css/slick-theme.css" />
+  <link rel="stylesheet" href="assets/css/aos.css" />
+  <link rel="stylesheet" href="assets/css/animate.css" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  <script src="https://kit.fontawesome.com/f2e27613ce.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <!-- lord-icon -->
+  <script src="https://cdn.lordicon.com/lordicon.js"></script>
+</head>
+
+<body>
+  <!-- navbar-start -->
+  <!-- mobile-view header -->
+  <nav class="navbar fixed-top mobile-view">
+    <div class="container-fluid">
+      <div class="mobile-logo-info">
+        <a class="navbar-brand" href="index.html">
+          <div class="logo-sector">
+            <img src="assets/images/logo.svg" class="logo" alt="" />
+          </div>
+        </a>
+        <div class="header-td-info">
+          <p>9-11 APR 2024</p>
+          <p>MEXICO CITY, MEXICO</p>
+        </div>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars-staggered"></i>
+      </button>
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i
+              class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link dropdown-btn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                onclick="toggleDropdown(this)"> more <i class="fa-solid fa-angle-down"></i> </a>
+              <ul class="dropdown-container list-unstyled">
+                <li><a class="dropdown-item" href="Sponsor.html">sponsors / exhibitors</a></li>
+                <li><a class="dropdown-item" href="Media-Partner.html">media partners</a></li>
+                <li><a class="dropdown-item" href="Speaker.html">speakers</a></li>
+                <li><a class="dropdown-item" href="Attendees.html">attendees</a></li>
+                <li><a class="dropdown-item" href="Floor-Plan.html">floorplan</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Agenda.html">Agenda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link dropdown-btn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                onclick="toggleDropdown(this)"> Get Involved <i class="fa-solid fa-angle-down"></i> </a>
+              <ul class="dropdown-container list-unstyled">
+                <li><a class="dropdown-item" href="Become-SPEX.html">become a sponsor / exhibitor</a></li>
+                <li><a class="dropdown-item" href="form.html">speak</a></li>
+                <li><a class="dropdown-item" href="Attend.html">attend</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="trader-zone.html">Traders zone</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-us.html">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link dropdown-btn" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                onclick="toggleDropdown(this)"> more <i class="fa-solid fa-angle-down"></i> </a>
+              <ul class="dropdown-container list-unstyled">
+                <li><a class="dropdown-item" href="Faqs.html">Faqs</a></li>
+                <li><a class="dropdown-item" href="Venue.html">Venue</a></li>
+                <li><a class="dropdown-item" href="Contact.html">contact</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="mobile-header-btns">
+            <button href="Sponsor.html" class="header-btn-1">sponsor / exhibit</button>
+            <button href="getyourpass.html" class="header-btn-2">get your pass</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- web-view header -->
+  <header class="header web-view">
+    <nav class="navbar">
+      <div class="container-fluid px-4">
+        <div class="row w-100">
+          <div class="col-lg-3">
+            <div class="logo-and-info">
+              <a href="index.html">
+                <div class="logo-sector">
+                  <img src="assets/images/logo.svg" class="logo" alt="" />
+                </div>
+              </a>
+              <div class="header-td-info align-e">
+                <p>9-11 APR 2024</p>
+                <p>MEXICO CITY, MEXICO</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-9 align-e">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false"> Meet <i
+                    class="fa-solid fa-angle-down"></i> </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Sponsor.html">sponsors / exhibitors</a></li>
+                  <li><a class="dropdown-item" href="Media-Partner.html">media partners</a></li>
+                  <li><a class="dropdown-item" href="Speaker.html">speakers</a></li>
+                  <li><a class="dropdown-item" href="Attendees.html">attendees</a></li>
+                  <li><a class="dropdown-item" href="Floor-Plan.html">floorplan</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Agenda.html">Agenda</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false"> Get Involved <i
+                    class="fa-solid fa-angle-down"></i> </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Become-SPEX.html">become a sponsor / exhibitor</a></li>
+                  <li><a class="dropdown-item" href="form.html"> speak</a></li>
+                  <li><a class="dropdown-item" href="Attend.html">attend</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="trader-zone.html">Traders zone</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about-us.html">about</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false"> more <i
+                    class="fa-solid fa-angle-down"></i> </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Faqs.html">Faqs</a></li>
+                  <li><a class="dropdown-item" href="Venue.html">Venue</a></li>
+                  <li><a class="dropdown-item" href="Contact.html">contact</a></li>
+                </ul>
+              </li>
+              <li class="nav-item header-btns align">
+                <button href="Sponsor.html" class="header-btn-1">sponsor / exhibit</button>
+              </li>
+              <li class="nav-item header-btns align">
+                <button href="getyourpass.html" class="header-btn-2">get your pass</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- navbar-start-end -->
+
+  <!-- ==== Banner Section ==== -->
+  <section class="traderzone-banner">
+    <div class="banner-img-fit">
+      <img src="./assets/images/ifx/tradezone-banner.jpg" alt="" />
+    </div>
+    <div class="traderzone-banner-content">
+      <h1 class="title">
+        TRADERS <br />
+        THIS IS YOUR STAGE
+      </h1>
+      <p>Presenting Traders Arena and Traders Lounge</p>
+      <button class="traderzone-banner-btn">GET YOUR PASS</button>
+    </div>
+  </section>
+  <!-- ==== End Banner Section ==== -->
+
+  <!-- About Us Section -->
+  <div class="about-us-section trade-zone padding-d" id="exhibit">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-12 align">
+          <div class="about-us-right">
+            <p>
+              iFX EXPO is the online trading industry’s biggest event series, bridging the world’s top brands with
+              like-minded professionals, traders and more. It has grown into a global standard, providing every
+              individual a hub to network, exchange ideas, or grow their business.
+            </p>
+            <p>
+              And now, iFX EXPO LATAM 2024 looks to explore new inroads this April in Mexico. All participants can take
+              a deep dive into the LATAM market, exploring new opportunities.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-12 align">
+          <div class="about-us-left">
+            <div class="fit">
+              <img src="./assets/images/ifx/about-us1.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End About Us Section -->
+
+  <!-- Start for2024 Section -->
+
+  <section class="tradesec-card padding-d">
+    <div class="container-fluid px-lg-5">
+      <h2 class="title text-center mb-5 text-white">A HUB OF STAGES AND LIMITLESS OPPORTUNITIES</h2>
+      <div class="row gy-4">
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="tradesec-box">
+            <h2>
+              EXPO<br />
+              <span>FLOOR</span>
+            </h2>
+            <p>A marketplace where traders can network with top brokers, access industry leaders and explore the latest
+              trading platforms and cutting-edge technologies.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="tradesec-box">
+            <h2>
+              EXPO<br />
+              <span>FLOOR</span>
+            </h2>
+            <p>A marketplace where traders can network with top brokers, access industry leaders and explore the latest
+              trading platforms and cutting-edge technologies.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="tradesec-box">
+            <h2>
+              EXPO<br />
+              <span>FLOOR</span>
+            </h2>
+            <p>A marketplace where traders can network with top brokers, access industry leaders and explore the latest
+              trading platforms and cutting-edge technologies.</p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center">
+        <button class="tradesec-card-btn">GET YOUR PASS</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- end for2024 Section -->
+
+  <!-- About FAQ Section -->
+  <div class="about-faq-section padding-d" id="exhibit">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2 class="title">THE <span>MUST-ATTEND EVENT</span> FOR</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-12 align order-lg-first order-last">
+          <div class="about-faq-left">
+            <div class="fit">
+              <img src="./assets/images/ifx/height-img1.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-12 order-lg-last order-first">
+          <div class="accordion">
+            <div class="accordion__header is-active" style="border-bottom: none;">
+              <h2>Retail & Institutional Brokers</h2>
+              <span class="accordion__toggle"></span>
+            </div>
+            <div class="accordion__body is-active">
+              <p>The ultimate platform for all brokers to compare and source service providers, engage with partners,
+                expand with institutional offerings and interact directly with traders.</p>
+            </div>
+            <div class="accordion__header">
+              <h2>Traders</h2>
+              <span class="accordion__toggle"></span>
+            </div>
+            <div class="accordion__body">
+              <p>iFX EXPO offers unique opportunities for traders to engage with reliable brokers, understand market
+                trends, and gain access to exclusive educational content and premier resources.</p>
+            </div>
+            <div class="accordion__header">
+              <h2>Affiliates & IBs</h2>
+              <span class="accordion__toggle"></span>
+            </div>
+            <div class="accordion__body">
+              <p>The exhibition floor is always full of potential with traffic in high demand. Secure your next big deal
+                at iFX EXPO LATAM 2024 where affiliate marketing is a top priority.</p>
+            </div>
+            <div class="accordion__header">
+              <h2>Payments, Banks & Liquidity Providers</h2>
+              <span class="accordion__toggle"></span>
+            </div>
+            <div class="accordion__body">
+              <p>A dynamic atmosphere where the most innovative and customisable financial solutions, ranging from
+                payment processing, gateways, and e-wallets to banks and liquidity, are highly sought after</p>
+            </div>
+            <div class="accordion__header">
+              <h2>Technology Providers</h2>
+              <span class="accordion__toggle"></span>
+            </div>
+            <div class="accordion__body">
+              <p>Present your leading trading platforms, connectivity solutions, CRM & VoIP systems, and other
+                technology-related offerings to the entire financial industry.</p>
+            </div>
+            <div class="accordion__header">
+              <h2>Service Providers</h2>
+              <span class="accordion__toggle"></span>
+            </div>
+            <div class="accordion__body">
+              <p>Essential for every business: Accounting, Marketing, Recruitment, and more! Thousands of brands will be
+                in attendance seeking your cutting-edge services and solutions.</p>
+            </div>
+            <div class="accordion__header">
+              <h2>Digital Assets & Blockchain</h2>
+              <span class="accordion__toggle"></span>
+            </div>
+            <div class="accordion__body">
+              <p>From cryptocurrencies to security and payment solutions using blockchain - if you are on the ledger and
+                looking to connect, this event is the place to be.</p>
+            </div>
+            <div class="accordion__header">
+              <h2>Regulation & Compliance</h2>
+              <span class="accordion__toggle"></span>
+            </div>
+            <div class="accordion__body">
+              <p>Empower hundreds of brokers who are looking to stay one step ahead of the regulatory curve with your
+                compliance expertise at iFX EXPO LATAM.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End About FAQ Section -->
+
+  <!-- footer-start -->
+  <footer class="padding-d">
+    <div class="container">
+      <div class="flogo-fit">
+        <img src="assets/images/foot-logo.svg" alt="" />
+      </div>
+      <div class="row justify-content-between mt-4">
+        <div class="col-lg-4 col-md-7 align">
+          <div class="footer-box">
+            <p class="text-white">CONNECTING TODAY, CREATING TOMORROW</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 align">
+          <div class="footer-box">
+            <ul class="list-unstyled d-flex social-icons">
+              <li>
+                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="fa-regular fa-envelope"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-between mt-4">
+        <div class="col-lg-4 col-md-5 align">
+          <div class="footer-box">
+            <p class="copy-right-text">
+              ©2023 IFX EXPO. ALL RIGHTS RESERVED.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-7 align">
+          <div class="footer-box">
+            <ul class="list-unstyled d-flex term-links">
+              <li>
+                <a href="">Terms & Conditions</a>
+              </li>
+              <li><a href="">Cookies</a></li>
+              <li><a href="">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer-end -->
+  <!-- script-links -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/style.js"></script>
+  <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/slick.min.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="assets/js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+</body>
+
+</html>

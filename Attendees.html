@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Expo Layout</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.theme.default.min.css" />
+    <!-- slick -->
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/slick-theme.css" />
+    <link rel="stylesheet" href="assets/css/aos.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <script src="https://kit.fontawesome.com/f2e27613ce.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <!-- lord-icon -->
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+</head>
+
+<body>
+    <!-- navbar-start -->
+    <!-- mobile-view header -->
+    <nav class="navbar fixed-top mobile-view">
+        <div class="container-fluid">
+            <div class="mobile-logo-info">
+                <a class="navbar-brand" href="index.html">
+                    <div class="logo-sector">
+                        <img src="assets/images/logo.svg" class="logo" alt="" />
+                    </div>
+                </a>
+                <div class="header-td-info">
+                    <p>9-11 APR 2024</p>
+                    <p>MEXICO CITY, MEXICO</p>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                            class="fa-solid fa-xmark"></i></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link dropdown-btn" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" onclick="toggleDropdown(this)"> more <i
+                                    class="fa-solid fa-angle-down"></i> </a>
+                            <ul class="dropdown-container list-unstyled">
+                                <li><a class="dropdown-item" href="Sponsor.html">sponsors / exhibitors</a></li>
+                                <li><a class="dropdown-item" href="Media-Partner.html">media partners</a></li>
+                                <li><a class="dropdown-item" href="Speaker.html">speakers</a></li>
+                                <li><a class="dropdown-item" href="Attendees.html">attendees</a></li>
+                                <li><a class="dropdown-item" href="Floor-Plan.html">floorplan</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Agenda.html">Agenda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link dropdown-btn" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" onclick="toggleDropdown(this)"> Get Involved <i
+                                    class="fa-solid fa-angle-down"></i> </a>
+                            <ul class="dropdown-container list-unstyled">
+                                <li><a class="dropdown-item" href="Become-SPEX.html">become a sponsor / exhibitor</a>
+                                </li>
+                                <li><a class="dropdown-item" href="form.html">speak</a></li>
+                                <li><a class="dropdown-item" href="Attend.html">attend</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="trader-zone.html">Traders zone</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-us.html">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link dropdown-btn" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" onclick="toggleDropdown(this)"> more <i
+                                    class="fa-solid fa-angle-down"></i> </a>
+                            <ul class="dropdown-container list-unstyled">
+                                <li><a class="dropdown-item" href="Faqs.html">Faqs</a></li>
+                                <li><a class="dropdown-item" href="Venue.html">Venue</a></li>
+                                <li><a class="dropdown-item" href="Contact.html">contact</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="mobile-header-btns">
+                        <button href="Sponsor.html" class="header-btn-1">sponsor / exhibit</button>
+                        <button href="getyourpass.html" class="header-btn-2">get your pass</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- web-view header -->
+    <header class="header web-view">
+        <nav class="navbar">
+            <div class="container-fluid px-4">
+                <div class="row w-100">
+                    <div class="col-lg-3">
+                        <div class="logo-and-info">
+                            <a href="index.html">
+                                <div class="logo-sector">
+                                    <img src="assets/images/logo.svg" class="logo" alt="" />
+                                </div>
+                            </a>
+                            <div class="header-td-info align-e">
+                                <p>9-11 APR 2024</p>
+                                <p>MEXICO CITY, MEXICO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 align-e">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false"> Meet
+                                    <i class="fa-solid fa-angle-down"></i> </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="Sponsor.html">sponsors / exhibitors</a></li>
+                                    <li><a class="dropdown-item" href="Media-Partner.html">media partners</a></li>
+                                    <li><a class="dropdown-item" href="Speaker.html">speakers</a></li>
+                                    <li><a class="dropdown-item" href="Attendees.html">attendees</a></li>
+                                    <li><a class="dropdown-item" href="Floor-Plan.html">floorplan</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Agenda.html">Agenda</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false"> Get
+                                    Involved <i class="fa-solid fa-angle-down"></i> </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="Become-SPEX.html">become a sponsor /
+                                            exhibitor</a></li>
+                                    <li><a class="dropdown-item" href="form.html"> speak</a></li>
+                                    <li><a class="dropdown-item" href="Attend.html">attend</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="trader-zone.html">Traders zone</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about-us.html">about</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false"> more
+                                    <i class="fa-solid fa-angle-down"></i> </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="Faqs.html">Faqs</a></li>
+                                    <li><a class="dropdown-item" href="Venue.html">Venue</a></li>
+                                    <li><a class="dropdown-item" href="Contact.html">contact</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item header-btns align">
+                                <button href="Sponsor.html" class="header-btn-1">sponsor / exhibit</button>
+                            </li>
+                            <li class="nav-item header-btns align">
+                                <button href="getyourpass.html" class="header-btn-2">get your pass</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- navbar-start-end -->
+
+    <!-- common-banner-start -->
+    <section class="common-banner-section">
+        <div class="common-banner-content">
+            <h1 class="common-banner-title">
+                attendees
+            </h1>
+        </div>
+    </section>
+    <!-- common-banner-end -->
+
+    <!-- ==== Attendees Section ==== -->
+    <section class="Attendees-Section padding-d" id="Attendees-Section">
+        <div class="container">
+            <div class="Atnde-SearchBar">
+                <div class="Atnde-Search">
+                    <input type="text" class="Atnde-search-input" id="searchInput" oninput="filterSpeakers()"
+                        placeholder="Search by name..." />
+                    <button class="Atnde-search-button">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="Alphabet-Tabs" id="Alphabet-Tabs">
+                <button style="display: none;" class="Alphabet-btn Alphabetactive" id="showAllBtn">All</button>
+                <button class="Alphabet-btn" onclick="filterByAlphabet('A')">A</button>
+                <button class="Alphabet-btn" onclick="filterByAlphabet('B')">B</button>
+                <button class="Alphabet-btn" onclick="filterByAlphabet('C')">C</button>
+                <button class="Alphabet-btn" onclick="filterByAlphabet('D')">D</button>
+                <button class="Alphabet-btn" onclick="filterByAlphabet('E')">E</button>
+                <button class="Alphabet-btn" onclick="filterByAlphabet('F')">F</button>
+                <button class="Alphabet-btn" onclick="filterByAlphabet('G')">G</button>
+                <button class="Alphabet-btn" onclick="filterByAlphabet('H')">H</button>
+                <button class="Alphabet-btn" onclick="filterByAlphabet('I')">I</button>
+                <button class="Alphabet-btn" onclick="filterByAlphabet('J')">J</button>
+                <button class="Alphabet-btn" onclick="filterByAlphabet('K')">K</button>
+                <button class="Alphabet-btn" onclick="filterByAlphabet('L')">L</button>
+                <button class="Alphabet-btn" onclick="filterByAlphabet('M')">M</button>
+                <button class="Alphabet-btn" onclick="filterByAlphabet('N')">N</button>
+                <button class="Alphabet-btn" onclick="filterByAlphabet('O')">O</button>
+                <button class="Alphabet-btn" onclick="filterByAlphabet('P')">P</button>
+                <button class="Alphabet-btn" onclick="filterByAlphabet('Q')">Q</button>
+                <button class="Alphabet-btn" onclick="filterByAlphabet('R')">R</button>
+                <button class="Alphabet-btn" onclick="filterByAlphabet('S')">S</button>
+                <button class="Alphabet-btn" onclick="filterByAlphabet('T')">T</button>
+                <button class="Alphabet-btn" onclick="filterByAlphabet('U')">U</button>
+                <button class="Alphabet-btn" onclick="filterByAlphabet('V')">V</button>
+                <button class="Alphabet-btn" onclick="filterByAlphabet('W')">W</button>
+                <button class="Alphabet-btn" onclick="filterByAlphabet('X')">X</button>
+                <button class="Alphabet-btn" onclick="filterByAlphabet('Y')">Y</button>
+                <button class="Alphabet-btn" onclick="filterByAlphabet('Z')">Z</button>
+                <!-- Add buttons for other alphabets -->
+            </div>
+
+            <div class="Attendees-Tabs">
+                <div class="row Attendees-List">
+                    <div class="Atnde-single-item attendees-box" data-name="Bitolo"
+                        data-position="Chief Partnerships Officer">
+                        <h3>Bitolo</h3>
+                        <p>Chief Partnerships Officer</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Memory Video Producciones"
+                        data-position="video producer">
+                        <h3>Memory Video Producciones</h3>
+                        <p>video producer</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Caaarem" data-position="Ing">
+                        <h3>Caaarem</h3>
+                        <p>Ing</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Algense" data-position="CEO">
+                        <h3>Algense</h3>
+                        <p>CEO</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Clickzoo" data-position="Director">
+                        <h3>Clickzoo</h3>
+                        <p>Director</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Monecrypt LTD" data-position="CTO">
+                        <h3>Monecrypt LTD</h3>
+                        <p>CTO</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Cifer" data-position="Administrator">
+                        <h3>Cifer</h3>
+                        <p>Administrator</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Airtm" data-position="Gowrth Lead">
+                        <h3>Airtm</h3>
+                        <p>Gowrth Lead</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Rs international Traders"
+                        data-position="Director">
+                        <h3>Rs international Traders</h3>
+                        <p>Director</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Nexa Digital"
+                        data-position="Account manager">
+                        <h3>Nexa Digital</h3>
+                        <p>Account manager</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Klarpay AG"
+                        data-position="VP of Sales and Partnerships">
+                        <h3>Klarpay AG</h3>
+                        <p>VP of Sales and Partnerships</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Huddle Fifty" data-position="CMO">
+                        <h3>Huddle Fifty</h3>
+                        <p>CMO</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Mr. TQV"
+                        data-position="Director of Photography">
+                        <h3>Mr. TQV</h3>
+                        <p>Director of Photography</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="TransFi"
+                        data-position="Head of Business Development">
+                        <h3>TransFi</h3>
+                        <p>Head of Business Development</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Vision Financial Markets"
+                        data-position="MD">
+                        <h3>Vision Financial Markets</h3>
+                        <p>MD</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="WalletsTech" data-position="CEO">
+                        <h3>WalletsTech</h3>
+                        <p>CEO</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Nexo" data-position="PM">
+                        <h3>Nexo</h3>
+                        <p>PM</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="InsureMO" data-position="Sales Director">
+                        <h3>InsureMO</h3>
+                        <p>Sales Director</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Yaaba" data-position="Ingeniero">
+                        <h3>Yaaba</h3>
+                        <p>Ingeniero</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Lake forest School"
+                        data-position="Principal">
+                        <h3>Lake forest School</h3>
+                        <p>Principal</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Miflink Advisors"
+                        data-position="Back Office">
+                        <h3>Miflink Advisors</h3>
+                        <p>Back Office</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="PayRetailers"
+                        data-position="Senior Sales Executive">
+                        <h3>PayRetailers</h3>
+                        <p>Senior Sales Executive</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="One Pro" data-position="CEO">
+                        <h3>One Pro</h3>
+                        <p>CEO</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="IPG Internet Capital Ltd"
+                        data-position="CMO">
+                        <h3>IPG Internet Capital Ltd</h3>
+                        <p>CMO</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="QEEQ" data-position="Digital currency">
+                        <h3>QEEQ</h3>
+                        <p>Digital currency</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Happy Family Business Inc"
+                        data-position="Manager">
+                        <h3>Happy Family Business Inc</h3>
+                        <p>Manager</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Unlimit" data-position="Sr. BDM">
+                        <h3>Unlimit</h3>
+                        <p>Sr. BDM</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="R&A Consulting" data-position="CEO">
+                        <h3>R&A Consulting</h3>
+                        <p>CEO</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="We - Leads" data-position="CMO">
+                        <h3>We - Leads</h3>
+                        <p>CMO</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Bioskinco" data-position="CFO">
+                        <h3>Bioskinco</h3>
+                        <p>CFO</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Acuity" data-position="CEO">
+                        <h3>Acuity</h3>
+                        <p>CEO</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Care Assistance"
+                        data-position="Director OpCo">
+                        <h3>Care Assistance</h3>
+                        <p>Director OpCo</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Aurum Assets S.A." data-position="VP">
+                        <h3>Aurum Assets S.A.</h3>
+                        <p>VP</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Banwire" data-position="COO">
+                        <h3>Banwire</h3>
+                        <p>COO</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Adavice" data-position="BDM">
+                        <h3>Adavice</h3>
+                        <p>BDM</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Cubo Pay" data-position="Head of Sales">
+                        <h3>Cubo Pay</h3>
+                        <p>Head of Sales</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Athena" data-position="Entrepeneur">
+                        <h3>Athena</h3>
+                        <p>Entrepeneur</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Bamboo Payment"
+                        data-position="Country Manager">
+                        <h3>Bamboo Payment</h3>
+                        <p>Country Manager</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Digital money srl" data-position="Director">
+                        <h3>Digital money srl</h3>
+                        <p>Director</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Axia Invesments"
+                        data-position="CMO Director">
+                        <h3>Axia Invesments</h3>
+                        <p>CMO Director</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Cmg Web3" data-position="CEO">
+                        <h3>Cmg Web3</h3>
+                        <p>CEO</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Findoc Investmart"
+                        data-position="Vice President">
+                        <h3>Findoc Investmart</h3>
+                        <p>Vice President</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Monecrypt LTD" data-position="CEO">
+                        <h3>Monecrypt LTD</h3>
+                        <p>CEO</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Yobi Telecom"
+                        data-position="Product Manager">
+                        <h3>Yobi Telecom</h3>
+                        <p>Product Manager</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Kpitalizate" data-position="Trader">
+                        <h3>Kpitalizate</h3>
+                        <p>Trader</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Unlimit" data-position="Sales Director">
+                        <h3>Unlimit</h3>
+                        <p>Sales Director</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="La Compañia" data-position="Trader">
+                        <h3>La Compañia</h3>
+                        <p>Trader</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Ord Fx Consulting"
+                        data-position="Co-Founder">
+                        <h3>Ord Fx Consulting</h3>
+                        <p>Co-Founder</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Unlimit" data-position="BDM">
+                        <h3>Unlimit</h3>
+                        <p>BDM</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Trade Nation" data-position="CEO">
+                        <h3>Trade Nation</h3>
+                        <p>CEO</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="WikiFx" data-position="Business Developer">
+                        <h3>WikiFx</h3>
+                        <p>Business Developer</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="None" data-position="IB">
+                        <h3>None</h3>
+                        <p>IB</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="WeTrade" data-position="Senior BDM">
+                        <h3>WeTrade</h3>
+                        <p>Senior BDM</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Top Gain" data-position="CEO">
+                        <h3>Top Gain</h3>
+                        <p>CEO</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Doo Prime"
+                        data-position="Senior Business Development Manager">
+                        <h3>Doo Prime</h3>
+                        <p>Senior Business Development Manager</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Alonso Ávila" data-position="Trader">
+                        <h3>Alonso Ávila</h3>
+                        <p>Trader</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="GTC Prime"
+                        data-position="Marketing Specialists">
+                        <h3>GTC Prime</h3>
+                        <p>Marketing Specialists</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="EC Markets" data-position="CEO">
+                        <h3>EC Markets</h3>
+                        <p>CEO</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="EA Tech" data-position="CEO">
+                        <h3>EA Tech</h3>
+                        <p>CEO</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="BT Junior" data-position="Trader">
+                        <h3>BT Junior</h3>
+                        <p>Trader</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Diadecor"
+                        data-position="regulatory advisor">
+                        <h3>Diadecor</h3>
+                        <p>regulatory advisor</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Franz Haberda" data-position="Ivl.5">
+                        <h3>Franz Haberda</h3>
+                        <p>Ivl.5</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Ababeel Information Technology"
+                        data-position="Web Developer">
+                        <h3>Ababeel Information Technology</h3>
+                        <p>Web Developer</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Dealio"
+                        data-position="Chief Commercial Officer">
+                        <h3>Dealio</h3>
+                        <p>Chief Commercial Officer</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="EA Tech" data-position="CFO">
+                        <h3>EA Tech</h3>
+                        <p>CFO</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="GCI Financial Ltd"
+                        data-position="Marketing">
+                        <h3>GCI Financial Ltd</h3>
+                        <p>Marketing</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Check" data-position="Key">
+                        <h3>Check</h3>
+                        <p>Key</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Admirals" data-position="Lic Teologia">
+                        <h3>Admirals</h3>
+                        <p>Lic Teologia</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="FCF Commercial" data-position="Director">
+                        <h3>FCF Commercial</h3>
+                        <p>Director</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Gia" data-position="Director">
+                        <h3>Gia</h3>
+                        <p>Director</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="GCI Finacial LTD"
+                        data-position="Heads of Sales">
+                        <h3>GCI Finacial LTD</h3>
+                        <p>Heads of Sales</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Dealio" data-position="Director of Sales">
+                        <h3>Dealio</h3>
+                        <p>Director of Sales</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Asociadosfx" data-position="SR">
+                        <h3>Asociadosfx</h3>
+                        <p>SR</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Diadecor" data-position="CEO">
+                        <h3>Diadecor</h3>
+                        <p>CEO</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Digital Fortress Pvt Ltd"
+                        data-position="Business Advisor">
+                        <h3>Digital Fortress Pvt Ltd</h3>
+                        <p>Business Advisor</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Ethoca" data-position="VP Sales">
+                        <h3>Ethoca</h3>
+                        <p>VP Sales</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Efcapital" data-position="Ing">
+                        <h3>Efcapital</h3>
+                        <p>Ing</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Finage" data-position="Head of Development">
+                        <h3>Finage</h3>
+                        <p>Head of Development</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="FlexAuto"
+                        data-position="Head of Operations">
+                        <h3>FlexAuto</h3>
+                        <p>Head of Operations</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Gddigital" data-position="LIC">
+                        <h3>Gddigital</h3>
+                        <p>LIC</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Housement" data-position="CEO">
+                        <h3>Housement</h3>
+                        <p>CEO</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Key to Market" data-position="BDM">
+                        <h3>Key to Market</h3>
+                        <p>BDM</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Luxemark Media" data-position="Owner">
+                        <h3>Luxemark Media</h3>
+                        <p>Owner</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Operadora Balmori" data-position="Trader">
+                        <h3>Operadora Balmori</h3>
+                        <p>Trader</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Pegaso" data-position="Sociólogo">
+                        <h3>Pegaso</h3>
+                        <p>Sociólogo</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Turbofx" data-position="Trader">
+                        <h3>Turbofx</h3>
+                        <p>Trader</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Vinculación Financiera"
+                        data-position="Consultor Sr.">
+                        <h3>Vinculación Financiera</h3>
+                        <p>Consultor Sr.</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Private trade" data-position="Sr">
+                        <h3>Private trade</h3>
+                        <p>Sr</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Trading Central"
+                        data-position="Solution Sales Director">
+                        <h3>Trading Central</h3>
+                        <p>Solution Sales Director</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Video Factory" data-position="Producer">
+                        <h3>Video Factory</h3>
+                        <p>Producer</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Zara FX" data-position="CEO">
+                        <h3>Zara FX</h3>
+                        <p>CEO</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Xepelin" data-position="Ejecutivo bancario">
+                        <h3>Xepelin</h3>
+                        <p>Ejecutivo bancario</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Huddle Fifty" data-position="CEO">
+                        <h3>Huddle Fifty</h3>
+                        <p>CEO</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Kimuntu Power Inc"
+                        data-position="Owner - CEO">
+                        <h3>Kimuntu Power Inc</h3>
+                        <p>Owner - CEO</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Nexa Digital" data-position="CEO">
+                        <h3>Nexa Digital</h3>
+                        <p>CEO</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Prime Financials"
+                        data-position="Co-Founder">
+                        <h3>Prime Financials</h3>
+                        <p>Co-Founder</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Huddle Fifty" data-position="Art Director">
+                        <h3>Huddle Fifty</h3>
+                        <p>Art Director</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="JoelJassiel" data-position="Director">
+                        <h3>JoelJassiel</h3>
+                        <p>Director</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Matteo Morosinotto" data-position="Manager">
+                        <h3>Matteo Morosinotto</h3>
+                        <p>Manager</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Integral Development Corp"
+                        data-position="MD">
+                        <h3>Integral Development Corp</h3>
+                        <p>MD</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Paresa Enterprise"
+                        data-position="Business Development">
+                        <h3>Paresa Enterprise</h3>
+                        <p>Business Development</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Unam Mx" data-position="IT Manager">
+                        <h3>Unam Mx</h3>
+                        <p>IT Manager</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Top Gain" data-position="CIO">
+                        <h3>Top Gain</h3>
+                        <p>CIO</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Retro Playtime" data-position="E-commerce">
+                        <h3>Retro Playtime</h3>
+                        <p>E-commerce</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Qmsp" data-position="CEO">
+                        <h3>Qmsp</h3>
+                        <p>CEO</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="We - Leads" data-position="Finance">
+                        <h3>We - Leads</h3>
+                        <p>Finance</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Zara FX" data-position="Head of Growth">
+                        <h3>Zara FX</h3>
+                        <p>Head of Growth</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Uam" data-position="Developer Analista">
+                        <h3>Uam</h3>
+                        <p>Developer Analista</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Video Factory"
+                        data-position="Product Manager">
+                        <h3>Video Factory</h3>
+                        <p>Product Manager</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="TransFi"
+                        data-position="Head of Business Development">
+                        <h3>TransFi</h3>
+                        <p>Head of Business Development</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="YCM Invest Ltd"
+                        data-position="Sales/Operation Manager">
+                        <h3>YCM Invest Ltd</h3>
+                        <p>Sales/Operation Manager</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Uttara Jewellery L.L.C"
+                        data-position="Owner">
+                        <h3>Uttara Jewellery L.L.C</h3>
+                        <p>Owner</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="V Markets Fx" data-position="Trader">
+                        <h3>V Markets Fx</h3>
+                        <p>Trader</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Xepelin" data-position="Global Controller">
+                        <h3>Xepelin</h3>
+                        <p>Global Controller</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="SmartPlus" data-position="Investor">
+                        <h3>SmartPlus</h3>
+                        <p>Investor</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Ligda" data-position="CEO">
+                        <h3>Ligda</h3>
+                        <p>CEO</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Stvble" data-position="Co-Founder">
+                        <h3>Stvble</h3>
+                        <p>Co-Founder</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Invesus" data-position="CEO">
+                        <h3>Invesus</h3>
+                        <p>CEO</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="No Tengo" data-position="No Tengo">
+                        <h3>No Tengo</h3>
+                        <p>No Tengo</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Pride Wealth" data-position="Director">
+                        <h3>Pride Wealth</h3>
+                        <p>Director</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Sentinel Kapital" data-position="Counsel">
+                        <h3>Sentinel Kapital</h3>
+                        <p>Counsel</p>
+                    </div>
+                    <div class="Atnde-single-item attendees-box" data-name="Lake forest School" data-position="Manager">
+                        <h3>Lake forest School</h3>
+                        <p>Manager</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==== End Attendees Section ==== -->
+
+    <!-- footer-start -->
+    <footer class="padding-d">
+        <div class="container">
+            <div class="flogo-fit">
+                <img src="assets/images/foot-logo.svg" alt="" />
+            </div>
+            <div class="row justify-content-between mt-4">
+                <div class="col-lg-4 col-md-7 align">
+                    <div class="footer-box">
+                        <p class="text-white">CONNECTING TODAY, CREATING TOMORROW</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 align">
+                    <div class="footer-box">
+                        <ul class="list-unstyled d-flex social-icons">
+                            <li>
+                                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-regular fa-envelope"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-between mt-4">
+                <div class="col-lg-4 col-md-5 align">
+                    <div class="footer-box">
+                        <p class="copy-right-text">
+                            ©2023 IFX EXPO. ALL RIGHTS RESERVED.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-7 align">
+                    <div class="footer-box">
+                        <ul class="list-unstyled d-flex term-links">
+                            <li>
+                                <a href="">Terms & Conditions</a>
+                            </li>
+                            <li><a href="">Cookies</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer-end -->
+    <!-- script-links -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/style.js"></script>
+    <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="assets/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>

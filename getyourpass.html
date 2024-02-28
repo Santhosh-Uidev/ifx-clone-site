@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Expo Layout</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.theme.default.min.css" />
+    <!-- slick -->
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/slick-theme.css" />
+    <link rel="stylesheet" href="assets/css/aos.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <script src="https://kit.fontawesome.com/f2e27613ce.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <!-- lord-icon -->
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+</head>
+
+<body>
+    <!-- navbar-start -->
+    <!-- mobile-view header -->
+    <nav class="navbar fixed-top mobile-view">
+        <div class="container-fluid">
+            <div class="mobile-logo-info">
+                <a class="navbar-brand" href="index.html">
+                    <div class="logo-sector">
+                        <img src="assets/images/logo.svg" class="logo" alt="" />
+                    </div>
+                </a>
+                <div class="header-td-info">
+                    <p>9-11 APR 2024</p>
+                    <p>MEXICO CITY, MEXICO</p>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                            class="fa-solid fa-xmark"></i></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link dropdown-btn" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" onclick="toggleDropdown(this)"> more <i
+                                    class="fa-solid fa-angle-down"></i> </a>
+                            <ul class="dropdown-container list-unstyled">
+                                <li><a class="dropdown-item" href="Sponsor.html">sponsors / exhibitors</a></li>
+                                <li><a class="dropdown-item" href="Media-Partner.html">media partners</a></li>
+                                <li><a class="dropdown-item" href="Speaker.html">speakers</a></li>
+                                <li><a class="dropdown-item" href="Attendees.html">attendees</a></li>
+                                <li><a class="dropdown-item" href="Floor-Plan.html">floorplan</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Agenda.html">Agenda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link dropdown-btn" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" onclick="toggleDropdown(this)"> Get Involved <i
+                                    class="fa-solid fa-angle-down"></i> </a>
+                            <ul class="dropdown-container list-unstyled">
+                                <li><a class="dropdown-item" href="Become-SPEX.html">become a sponsor / exhibitor</a>
+                                </li>
+                                <li><a class="dropdown-item" href="form.html">speak</a></li>
+                                <li><a class="dropdown-item" href="Attend.html">attend</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="trader-zone.html">Traders zone</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-us.html">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link dropdown-btn" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" onclick="toggleDropdown(this)"> more <i
+                                    class="fa-solid fa-angle-down"></i> </a>
+                            <ul class="dropdown-container list-unstyled">
+                                <li><a class="dropdown-item" href="Faqs.html">Faqs</a></li>
+                                <li><a class="dropdown-item" href="Venue.html">Venue</a></li>
+                                <li><a class="dropdown-item" href="Contact.html">contact</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="mobile-header-btns">
+                        <button href="Sponsor.html" class="header-btn-1">sponsor / exhibit</button>
+                        <button href="getyourpass.html" class="header-btn-2">get your pass</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- web-view header -->
+    <header class="header web-view">
+        <nav class="navbar">
+            <div class="container-fluid px-4">
+                <div class="row w-100">
+                    <div class="col-lg-3">
+                        <div class="logo-and-info">
+                            <a href="index.html">
+                                <div class="logo-sector">
+                                    <img src="assets/images/logo.svg" class="logo" alt="" />
+                                </div>
+                            </a>
+                            <div class="header-td-info align-e">
+                                <p>9-11 APR 2024</p>
+                                <p>MEXICO CITY, MEXICO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 align-e">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false"> Meet
+                                    <i class="fa-solid fa-angle-down"></i> </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="Sponsor.html">sponsors / exhibitors</a></li>
+                                    <li><a class="dropdown-item" href="Media-Partner.html">media partners</a></li>
+                                    <li><a class="dropdown-item" href="Speaker.html">speakers</a></li>
+                                    <li><a class="dropdown-item" href="Attendees.html">attendees</a></li>
+                                    <li><a class="dropdown-item" href="Floor-Plan.html">floorplan</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Agenda.html">Agenda</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false"> Get
+                                    Involved <i class="fa-solid fa-angle-down"></i> </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="Become-SPEX.html">become a sponsor /
+                                            exhibitor</a></li>
+                                    <li><a class="dropdown-item" href="form.html"> speak</a></li>
+                                    <li><a class="dropdown-item" href="Attend.html">attend</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="trader-zone.html">Traders zone</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about-us.html">about</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false"> more
+                                    <i class="fa-solid fa-angle-down"></i> </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="Faqs.html">Faqs</a></li>
+                                    <li><a class="dropdown-item" href="Venue.html">Venue</a></li>
+                                    <li><a class="dropdown-item" href="Contact.html">contact</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item header-btns align">
+                                <button href="Sponsor.html" class="header-btn-1">sponsor / exhibit</button>
+                            </li>
+                            <li class="nav-item header-btns align">
+                                <button href="getyourpass.html" class="header-btn-2">get your pass</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- navbar-start-end -->
+
+    <!-- Get your pass start-->
+    <!-- seventh-section-start -->
+    <section class="seventh-section padding-d">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="get-your-pass-top-content text-center text-white my-5 pt-5">
+                        <h1 class="title text-white">Pass Categories</h1>
+                        <p>Please select which pass best describes your business activities and the number of tickets
+                            (up to 5 tickets) you are interested in</p>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12">
+                    <div class="seventh-content">
+                        <div class="seventh-top">
+                            <h1>get your <span>free</span> pass</h1>
+                            <button class="grap-it-btn web-view">
+                                grap it now
+                            </button>
+                        </div>
+                        <div class="seventh-bottom">
+                            <div class="row gy-4">
+                                <div class="col-lg-4">
+                                    <div class="seventh-bottom-list">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        <p>2-Day access to 80+ exhibitors 2-Day access to 80+ exhibitors 2-Day access to
+                                            80+ exhibitors</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="seventh-bottom-list">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        <p>13+ hours of content covering 25+ topics around industry’s hottest trends</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="seventh-bottom-list">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        <p>27+ Speaker sessions and Q&As on two stages, Speaker Hall and Traders Arena
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="seventh-bottom-list">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        <p>Exclusive access to the Welcome Party</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="seventh-bottom-list">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        <p>Access to sponsored F&B areas</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="seventh-bottom-list">
+                                        <i class="fa-solid fa-circle-check"></i>
+                                        <p>Access to iFX EXPO Networking App</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 mobile-view">
+                                    <button class="grap-it-btn m-auto">
+                                        grap it now
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="seventh-bottom-2">
+                            <div class="seventh-bottom-2-content">
+                                <div class="seventh-bottom-2-box">
+                                    <h2 class="mb-3">P1</h2>
+                                    <ul class="p-0">
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>Bullion Broker</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>Crypto Broker</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>Crypto Exchange</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>FX / CFD Broker</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>Stockbroker</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>Asset / Fund / Portfolio Manager</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>Compliance Services</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>Education / Signal Provider</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>Prop Firm</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="seventh-bottom-2-box">
+                                    <h2 class="mb-3">P1</h2>
+                                    <ul class="p-0">
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>Bullion Broker</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>Crypto Broker</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>Crypto Exchange</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>FX / CFD Broker</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>Stockbroker</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>Asset / Fund / Portfolio Manager</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>Compliance Services</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>Education / Signal Provider</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>Prop Firm</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="seventh-bottom-2-box">
+                                    <h2 class="mb-3">P1</h2>
+                                    <ul class="p-0">
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>Bullion Broker</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>Crypto Broker</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>Crypto Exchange</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>FX / CFD Broker</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>Stockbroker</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>Asset / Fund / Portfolio Manager</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>Compliance Services</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>Education / Signal Provider</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>Prop Firm</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>FX / CFD Broker</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>Stockbroker</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="seventh-bottom-2-box">
+                                    <h2 class="mb-3">P1</h2>
+                                    <ul class="p-0">
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>Bullion Broker</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>Crypto Broker</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>Crypto Exchange</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>FX / CFD Broker</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>Stockbroker</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>Asset / Fund / Portfolio Manager</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>Compliance Services</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>Education / Signal Provider</p>
+                                        </li>
+                                        <li class="seventh-bottom-2-list">
+                                            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+                                            <p>Prop Firm</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="text-center">
+                        <button class="start-registration-btn">start your registration</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- seventh-section-end -->
+    <!-- Get your pass end -->
+
+    <!-- footer-start -->
+    <footer class="padding-d">
+        <div class="container">
+            <div class="flogo-fit">
+                <img src="assets/images/foot-logo.svg" alt="" />
+            </div>
+            <div class="row justify-content-between mt-4">
+                <div class="col-lg-4 col-md-7 align">
+                    <div class="footer-box">
+                        <p class="text-white">CONNECTING TODAY, CREATING TOMORROW</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 align">
+                    <div class="footer-box">
+                        <ul class="list-unstyled d-flex social-icons">
+                            <li>
+                                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-regular fa-envelope"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-between mt-4">
+                <div class="col-lg-4 col-md-5 align">
+                    <div class="footer-box">
+                        <p class="copy-right-text">
+                            ©2023 IFX EXPO. ALL RIGHTS RESERVED.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-7 align">
+                    <div class="footer-box">
+                        <ul class="list-unstyled d-flex term-links">
+                            <li>
+                                <a href="">Terms & Conditions</a>
+                            </li>
+                            <li><a href="">Cookies</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer-end -->
+    <!-- script-links -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/style.js"></script>
+    <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="assets/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>

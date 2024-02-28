@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Expo Layout</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.theme.default.min.css" />
+    <!-- slick -->
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/slick-theme.css" />
+    <link rel="stylesheet" href="assets/css/aos.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <script src="https://kit.fontawesome.com/f2e27613ce.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <!-- lord-icon -->
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+</head>
+
+<body>
+    <!-- navbar-start -->
+    <!-- mobile-view header -->
+    <nav class="navbar fixed-top mobile-view">
+        <div class="container-fluid">
+            <div class="mobile-logo-info">
+                <a class="navbar-brand" href="index.html">
+                    <div class="logo-sector">
+                        <img src="assets/images/logo.svg" class="logo" alt="" />
+                    </div>
+                </a>
+                <div class="header-td-info">
+                    <p>9-11 APR 2024</p>
+                    <p>MEXICO CITY, MEXICO</p>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                            class="fa-solid fa-xmark"></i></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link dropdown-btn" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" onclick="toggleDropdown(this)"> more <i
+                                    class="fa-solid fa-angle-down"></i> </a>
+                            <ul class="dropdown-container list-unstyled">
+                                <li><a class="dropdown-item" href="Sponsor.html">sponsors / exhibitors</a></li>
+                                <li><a class="dropdown-item" href="Media-Partner.html">media partners</a></li>
+                                <li><a class="dropdown-item" href="Speaker.html">speakers</a></li>
+                                <li><a class="dropdown-item" href="Attendees.html">attendees</a></li>
+                                <li><a class="dropdown-item" href="Floor-Plan.html">floorplan</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Agenda.html">Agenda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link dropdown-btn" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" onclick="toggleDropdown(this)"> Get Involved <i
+                                    class="fa-solid fa-angle-down"></i> </a>
+                            <ul class="dropdown-container list-unstyled">
+                                <li><a class="dropdown-item" href="Become-SPEX.html">become a sponsor / exhibitor</a>
+                                </li>
+                                <li><a class="dropdown-item" href="form.html">speak</a></li>
+                                <li><a class="dropdown-item" href="Attend.html">attend</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="trader-zone.html">Traders zone</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-us.html">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link dropdown-btn" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" onclick="toggleDropdown(this)"> more <i
+                                    class="fa-solid fa-angle-down"></i> </a>
+                            <ul class="dropdown-container list-unstyled">
+                                <li><a class="dropdown-item" href="Faqs.html">Faqs</a></li>
+                                <li><a class="dropdown-item" href="Venue.html">Venue</a></li>
+                                <li><a class="dropdown-item" href="Contact.html">contact</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="mobile-header-btns">
+                        <button href="Sponsor.html" class="header-btn-1">sponsor / exhibit</button>
+                        <button href="getyourpass.html" class="header-btn-2">get your pass</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- web-view header -->
+    <header class="header web-view">
+        <nav class="navbar">
+            <div class="container-fluid px-4">
+                <div class="row w-100">
+                    <div class="col-lg-3">
+                        <div class="logo-and-info">
+                            <a href="index.html">
+                                <div class="logo-sector">
+                                    <img src="assets/images/logo.svg" class="logo" alt="" />
+                                </div>
+                            </a>
+                            <div class="header-td-info align-e">
+                                <p>9-11 APR 2024</p>
+                                <p>MEXICO CITY, MEXICO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 align-e">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false"> Meet
+                                    <i class="fa-solid fa-angle-down"></i> </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="Sponsor.html">sponsors / exhibitors</a></li>
+                                    <li><a class="dropdown-item" href="Media-Partner.html">media partners</a></li>
+                                    <li><a class="dropdown-item" href="Speaker.html">speakers</a></li>
+                                    <li><a class="dropdown-item" href="Attendees.html">attendees</a></li>
+                                    <li><a class="dropdown-item" href="Floor-Plan.html">floorplan</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Agenda.html">Agenda</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false"> Get
+                                    Involved <i class="fa-solid fa-angle-down"></i> </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="Become-SPEX.html">become a sponsor /
+                                            exhibitor</a></li>
+                                    <li><a class="dropdown-item" href="form.html"> speak</a></li>
+                                    <li><a class="dropdown-item" href="Attend.html">attend</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="trader-zone.html">Traders zone</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about-us.html">about</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false"> more
+                                    <i class="fa-solid fa-angle-down"></i> </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="Faqs.html">Faqs</a></li>
+                                    <li><a class="dropdown-item" href="Venue.html">Venue</a></li>
+                                    <li><a class="dropdown-item" href="Contact.html">contact</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item header-btns align">
+                                <button href="Sponsor.html" class="header-btn-1">sponsor / exhibit</button>
+                            </li>
+                            <li class="nav-item header-btns align">
+                                <button href="getyourpass.html" class="header-btn-2">get your pass</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- navbar-start-end -->
+
+    <!-- faq-page-section-start -->
+    <section class="Answer-Section faq-page-section padding-d">
+        <div class="container">
+            <h1 class="title">FAQS</h1>
+            <div class="Collapse">
+                <div class="row">
+                    <div class="col-lg-9">
+                        <div class="collapse-item">
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingOne">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                            aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Where is iFX EXPO LATAM being held?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <p>World Trade Center Mexico City</p>
+                                            <p>Address: Montecito 38, Nápoles, Benito Juárez, 03810 Ciudad de México,
+                                                CDMX, Mexico</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingTwo">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                            aria-expanded="false" aria-controls="flush-collapseTwo">
+                                            What are the expo opening hours for delegates?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <p>Wednesday, 10th of April 2024</p>
+                                            <p>Show starts 10:30 – 18:00</p>
+                                            <p>Registration: 10:30 -18:00</p>
+                                            <p>Exhibition Hall: Mexica 1 & 2</p>
+                                            <br />
+                                            <p>Thursday, 11th of April 2024</p>
+                                            <p>Show starts 10:30 – 18:00</p>
+                                            <p>Registration: 10:30 – 16:30</p>
+                                            <p>Exhibition Hall: Mexica 1 & 2</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingThree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                            aria-expanded="false" aria-controls="flush-collapseThree">
+                                            Is there a dress code?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <p>We would suggest smart casual or business attire.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingFour">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
+                                            aria-expanded="false" aria-controls="flush-collapseFour">
+                                            Is my pass transferable to another person?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <p>No. All passes are named and cannot be transferred.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingFive">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
+                                            aria-expanded="false" aria-controls="flush-collapseFive">
+                                            Do I qualify as an affiliate?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseFive" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <p>Only affiliates who are referring traffic to Forex Broker websites may
+                                                qualify for an affiliate pass.</p>
+                                            <br />
+                                            <p>
+                                                For our admission criteria, an affiliate is an individual who promotes a
+                                                Forex Brokers product/service on their website and refers traffic. The
+                                                affiliate is then paid a revenue share or
+                                                CPA (cost per acquisition) for each account opened/client the Forex
+                                                broker acquires. IB or Affiliate Agreement / IB or Affiliate Dashboard
+                                                (indicating company or your own name)
+                                                accordingly.
+                                            </p>
+                                            <br />
+                                            <p>
+                                                Your affiliate status will need to be validated in order to be approved.
+                                                Please note that this applies even if you have attended previous iFX
+                                                EXPO events. Please allow 5 working days for
+                                                us to validate your affiliate status.
+                                            </p>
+                                            <br />
+                                            <p>
+                                                If you are not sure if you qualify as an affiliate, please email us at
+                                                info@ifxexpo.com with details of your business. Please be aware if you
+                                                knowingly register as an affiliate under false
+                                                pretense, we reserve the right to refuse you entry.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingSix">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseSix"
+                                            aria-expanded="false" aria-controls="flush-collapseSix">
+                                            Do I qualify as an Introducing Broker (IB)?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseSix" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <p>
+                                                For our admission criteria, an Introducing Broker (IB) is an individual
+                                                who introduces new customers to a Forex Broker. In return for referring
+                                                the customer to the brokerage, the
+                                                Introducing Broker (IB) receives a fee/commission.
+                                            </p>
+                                            <br />
+                                            <p>In order to be assessed for an Introducing Broker (IB) pass, IB Agreement
+                                                / IB Dashboard (indicating company or your own name) between you and the
+                                                Forex Brokerage must be provided.</p>
+                                            <br />
+                                            <p>
+                                                Your IB status will need to be validated in order to be approved. Please
+                                                note that this applies even if you have attended previous iFX EXPO
+                                                events. Please allow 5 working days for us to
+                                                validate your IB status.
+                                            </p>
+                                            <br />
+                                            <p>Please note that IB’s to other industries or Service Providers are
+                                                charged.</p>
+                                            <br />
+                                            <p>
+                                                If you are not sure if you qualify as an IB, please email us at
+                                                info@ifxexpo.com with details of your business. Please be aware if you
+                                                knowingly register as an IB under false pretence, we
+                                                reserve the right to refuse you entry.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingSeven">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven"
+                                            aria-expanded="false" aria-controls="flush-collapseSeven">
+                                            Do you offer media passes?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseSeven" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <p>
+                                                If you are interested in becoming a media partner, please email us at
+                                                info@ifxexpo.com Once we have confirmed your details, we will contact
+                                                you regarding whether or not your application
+                                                has been successful.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingEight">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseEight"
+                                            aria-expanded="false" aria-controls="flush-collapseEight">
+                                            Where do I collect my badge?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseEight" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <p>
+                                                Once your registration has been approved and completed, you will receive
+                                                an email with your unique bar-coded ticket for the event. You must
+                                                present this at badge pick-up in order to
+                                                collect your pass, along with a government-issued Photo ID..
+                                            </p>
+                                            <br />
+                                            <p>Passes can be collected from the Badge Pick Up Area of the exhibition
+                                                venue from either the:</p>
+                                            <p>Welcome Party: 9th of April at 19:30 – 23:00</p>
+                                            <p>Day 1: 10th of April at 10:30 – 18:00</p>
+                                            <p>Day 2: 11th of April at 10:30 – 16:30</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingNine">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseNine"
+                                            aria-expanded="false" aria-controls="flush-collapseNine">
+                                            Will there be security measures implemented at the event?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseNine" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <p>Yes, well-trained security personnel will be stationed throughout the
+                                                event venue to ensure the safety of all delegates. Security checks will
+                                                be conducted at all entry points.</p>
+                                            <br />
+                                            <p>Please ensure that delegate badges are worn at all times and that you
+                                                bring a government-issued Photo ID with you.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingTen">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseTen"
+                                            aria-expanded="false" aria-controls="flush-collapseTen">
+                                            Are there items that are prohibited?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseTen" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <p>Yes, any sharp or explosive items that can be used as a weapon, illegal
+                                                substances and animals are strictly prohibited.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingEleven">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven"
+                                            aria-expanded="false" aria-controls="flush-collapseEleven">
+                                            I need a visa to attend - Can you assist?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseEleven" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingEleven" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <p>
+                                                We do not under any circumstances provide any assistance relating to
+                                                visas. We advise that you contact your nearest embassy or consulate for
+                                                advice. In most cases, the confirmation email
+                                                that you receive on the approval of your registration should suffice.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingTwelve">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve"
+                                            aria-expanded="false" aria-controls="flush-collapseTwelve">
+                                            Is there food & beverages available?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseTwelve" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingTwelve" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <p>
+                                                F&B options will be available based on sponsored areas to the attendees
+                                                on the venue floor and in public areas. Exhibitors and Sponsors will
+                                                have a dedicated area for their lunch service.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingThirteen">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseThirteen"
+                                            aria-expanded="false" aria-controls="flush-collapseThirteen">
+                                            Is there an age restriction for attendance?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseThirteen" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingThirteen" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <p>
+                                                You must be 21 years of age or above to be eligible to register and
+                                                attend the exhibition venue. Please be informed that access to the night
+                                                party will only be allowed to individuals 21
+                                                years of age and above as per local regulations.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="flush-headingFourteen">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseFourteen"
+                                            aria-expanded="false" aria-controls="flush-collapseFourteen">
+                                            Do I qualify as a Trader?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseFourteen" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingFourteen" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            <p>
+                                                For our admission criteria, a Trader is an individual actively involved
+                                                in retail FX / Stock / CFD / Crypto or other trading instruments with an
+                                                online broker. We also accept investors who
+                                                trade with traditional firms and or portfolio managers.
+                                            </p>
+                                            <br />
+                                            <p>
+                                                In order to be assessed for a Trader pass, a snapshot of your Account
+                                                and Broker will be requested on which your name should match the account
+                                                with your iFX EXPO registration details. Your
+                                                Trader status will need to be validated in order to be approved. Please
+                                                note that this applies even if you have attended previous iFX EXPO
+                                                events free of charge. Please allow 5 working
+                                                days for us to validate your status.
+                                            </p>
+                                            <br />
+                                            <p>
+                                                If you are not sure if you qualify as a Trader, please email us at
+                                                info@ifxexpo.com with details of your business at the expo. Please be
+                                                aware if you knowingly register as a Trader under
+                                                false pretence, we reserve the right to refuse you entry.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- faq-page-section-end -->
+
+    <!-- footer-start -->
+    <footer class="padding-d">
+        <div class="container">
+            <div class="flogo-fit">
+                <img src="assets/images/foot-logo.svg" alt="" />
+            </div>
+            <div class="row justify-content-between mt-4">
+                <div class="col-lg-4 col-md-7 align">
+                    <div class="footer-box">
+                        <p class="text-white">CONNECTING TODAY, CREATING TOMORROW</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 align">
+                    <div class="footer-box">
+                        <ul class="list-unstyled d-flex social-icons">
+                            <li>
+                                <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa-regular fa-envelope"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-between mt-4">
+                <div class="col-lg-4 col-md-5 align">
+                    <div class="footer-box">
+                        <p class="copy-right-text">
+                            ©2023 IFX EXPO. ALL RIGHTS RESERVED.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-7 align">
+                    <div class="footer-box">
+                        <ul class="list-unstyled d-flex term-links">
+                            <li>
+                                <a href="">Terms & Conditions</a>
+                            </li>
+                            <li><a href="">Cookies</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer-end -->
+    <!-- script-links -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/style.js"></script>
+    <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="assets/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
